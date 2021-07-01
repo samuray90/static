@@ -1,0 +1,35 @@
+.article {
+  margin: 40px;
+
+  &__title {
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    grid-column: 1/-1;
+    font-stretch: extra-condensed;
+    letter-spacing: 4px;
+  }
+
+  &__paragraph {
+    padding: 20px;
+    margin: 0px 40px;
+    grid-column: 1/-1;
+    font-size: 13px;
+  }
+}
+
+.button {
+  background-color: black;
+  color: white;
+  padding: 30px;
+  grid-column: 2/2;
+  border: none;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 1px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}

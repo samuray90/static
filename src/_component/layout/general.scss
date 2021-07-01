@@ -1,0 +1,15 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: serif;
+}
+.content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 40px;
+}

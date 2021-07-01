@@ -1,0 +1,38 @@
+.header {
+  grid-column: 1/-1;
+  position: relative;
+  font-stretch: ultra-condensed;
+  display: flex;
+  font-size: 45px;
+  justify-content: center;
+  align-items: center;
+  background-color: #d3d3d3;
+}
+
+.logo {
+  background-size: contain;
+  padding: 70px;
+  grid-column: 2/2;
+  background-repeat: no-repeat;
+  margin-left: 20px;
+}
+
+.title {
+  grid-column: 2/2;
+  font-size: 30px;
+  color: rgb(28, 87, 28);
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin-top: -40px;
+
+  &::before {
+    content: attr(title);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.span {
+  padding-top: 40px;
+}
