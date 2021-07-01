@@ -1,7 +1,7 @@
 {
   "name": "pug-starter",
   "version": "1.0.1",
-  "description": "Simple pug (jade) starter [framework] enabling faster delivery of HTML & CSS projects to a private server and/or automatic deployment of GitHub pages.",
+  "description": "Simple pug (jade) starter [framework] enabling faster delivery of HTML & CSS projects to a private server and/or automatic deployment of GitHub pages.{{The general rendering process of Pug is simple. pug.compile() will compile the Pug source code into a JavaScript function that takes a data object (called “locals”) as an argument. Call that resultant function with your data, and voilà!, it will return a string of HTML rendered with your data.}}",
   "main": "index.js",
   "scripts": {
     "start": "gulp dev --lang=en",
@@ -22,7 +22,7 @@
   },
   "config": {
     "customUrl": "http://pug-starter.codetap.academy",
-    "githubUrl": "http://github.com/marianzburlea/pug-starter.git",
+    "githubUrl": "http://github.com/samuray90/static.git",
     "deployToGithubIo": true,
     "directory": {
       "development": "tmp",

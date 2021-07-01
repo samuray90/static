@@ -33,3 +33,40 @@
   display: flex;
   align-items: center;
 }
+
+//Tablet
+
+@media screen and(min-width: 768px) {
+  .button {
+    grid-column: 4/-4;
+  }
+
+  .article__paragraph {
+    font-size: 25px;
+
+    padding: 4px;
+  }
+  .article__title {
+    font-weight: 600;
+  }
+}
+
+@media screen and(min-width: 1024px) {
+  .button {
+    grid-column: 5/-5;
+  }
+
+  .article__paragraph {
+    font-size: 25px;
+
+    padding: 4px;
+  }
+  .article__title {
+    font-weight: 600;
+    font-size: 30px;
+  }
+
+  .car {
+    grid-column: -1/-13;
+  }
+}

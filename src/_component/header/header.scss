@@ -36,3 +36,46 @@
 .span {
   padding-top: 40px;
 }
+
+@media screen and(min-width: 1024px) {
+  .header,
+  .logo,
+  .title {
+    grid-template-columns: repeat(12, 1fr);
+  }
+  .header {
+    grid-column: 1/-1;
+    font-size: 18px;
+  }
+  .logo,
+  .title {
+    grid-column: 6/-6;
+    font-size: 20px;
+    margin-bottom: -15px;
+  }
+  .title {
+    margin-left: 11px;
+  }
+}
+
+@media screen and(min-width: 768px) {
+  .header,
+  .logo,
+  .title {
+    grid-template-columns: repeat(8, 1fr);
+  }
+  .header {
+    grid-column: 1/-1;
+    font-size: 30px;
+    margin-bottom: 75px;
+  }
+  .logo,
+  .title {
+    grid-column: 6/-6;
+    font-size: 20px;
+    margin-bottom: -15px;
+  }
+  .title {
+    margin-left: 11px;
+  }
+}
